@@ -1,3 +1,9 @@
 def square_array(array)
-  # your code here
+  index = 0
+  while array[index]
+    array[index] *= array[index]
+    index += 1
+  end
+  
+  return array
 end
